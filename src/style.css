@@ -319,8 +319,8 @@ button:focus {
 
 .home-about-section {
   position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-bottom: 25px !important;
+  padding-top: 25px !important;
 }
 
 .home-about-description {
@@ -446,9 +446,10 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
-  padding-bottom: 30px !important;
+  padding-top: 220px !important;
+  padding-bottom: 220px !important;
   background-image: var(--section-background-color) !important;
+  align: center;
 }
 
 .project-card {
@@ -533,7 +534,7 @@ button:focus {
 }
 .project-heading {
   color: white !important;
-  font-size: 2.3em !important;
+  font-size: 5em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
 }
@@ -544,7 +545,7 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 30px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
@@ -603,11 +604,16 @@ button:focus {
 /* --------- */
 
 .resume-section {
-  position: relative !important;
+  /*position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: white !important;
+  color: white !important;*/
+  position: relative !important;
+  padding-top: 220px !important;
+  padding-bottom: 220px !important;
+  background-image: var(--section-background-color) !important;
+  align: center;
 }
 
 .resume {
@@ -740,4 +746,53 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.rate-head {
+  background-image: var(--section-background-color) !important;
+  color: white;
+  padding-top: 100px !important;
+  padding-bottom: 20px !important;
+  position: relative;
+}
+
+.rate-h2 {
+  color: white;
+  margin-bottom: 50px;
+
+}
+
+.rate-input,
+.rate-textarea {
+  width: 50%;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  outline-color: #801f95;
+
+}
+
+.rate-button {
+  margin-top: 10px;
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+
+.submitted-comment {
+  margin-top: 20px;
+  border: 1px solid purple;
+  padding: 10px;
+}
+
+.submitted-comment-h3 {
+  color: purple;
+  margin-bottom: 5px;
+}
+
+.submitted-comment-p {
+  margin: 5px 0;
 }

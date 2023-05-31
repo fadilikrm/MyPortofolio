@@ -13,7 +13,7 @@ function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
-        <h1 className="project-heading">
+        <h1 className="home-about-description">
           WAIT FOR MY <b className="purple">NEW PROJECT</b>
         </h1>
     </Container>

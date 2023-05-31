@@ -18,7 +18,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              My name is Ahmad Fadhil Ikram, i am lived in <b className="purple">Indonesia, Makassar</b>
+              My name is Ahmad Fadhil Ikram, i lived in <b className="purple">Indonesia, Makassar</b>
               <br />
               <br />
               My field of Interest's are building new &nbsp;

@@ -66,6 +66,8 @@ const RateUs = () => {
         </div>
       )}
     </div>
+    <br/>
+    <br/>
     </Container>
   );
 };

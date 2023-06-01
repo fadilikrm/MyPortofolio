@@ -406,7 +406,6 @@ button:focus {
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
-  position: fixed;
 }
 
 
@@ -613,8 +612,8 @@ button:focus {
   background-image: var(--section-background-color) !important;
   color: white !important;*/
   position: relative !important;
-  padding-top: 220px !important;
-  padding-bottom: 220px !important;
+  padding-top: 250px !important;
+  padding-bottom: 250px !important;
   background-image: var(--section-background-color) !important;
 }
 

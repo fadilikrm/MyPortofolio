@@ -277,7 +277,7 @@ button:focus {
 
 .heading-name {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+  padding-left: 50px !important;
 }
 
 .main-name {
@@ -406,7 +406,10 @@ button:focus {
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
+  position: fixed;
 }
+
+
 .footer-copywright {
   text-align: center !important;
 }
@@ -613,7 +616,6 @@ button:focus {
   padding-top: 220px !important;
   padding-bottom: 220px !important;
   background-image: var(--section-background-color) !important;
-  align: center;
 }
 
 .resume {
@@ -757,9 +759,10 @@ button:focus {
 }
 
 .rate-h2 {
-  color: white;
+  position: relative;
+  padding-top: 50px !important;
   margin-bottom: 50px;
-
+  font-size: 60px;
 }
 
 .rate-input,
